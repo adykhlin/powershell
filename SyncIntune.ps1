@@ -5,6 +5,9 @@ iOS/ipadOS: $Devices = Get-IntuneManagedDevice -Filter "contains(operatingsystem
 Android: $Devices = Get-IntuneManagedDevice -Filter "contains(operatingsystem, 'Android')"
 macOS: $Devices = Get-IntuneManagedDevice -Filter "contains(operatingsystem, 'macOS')"
 All devices: $Devices = Get-IntuneManagedDevice
+
+
+Related post: https://dykhl.in/post/6
 #>
 Connect-MSGraph
 $Devices = Get-IntuneManagedDevice -Filter "contains(operatingsystem, 'Windows')"

@@ -1,6 +1,8 @@
 <#
 This is a script to check the users that are not a part of a group with a matching criteria (specified on Line 12).
 Will return a list of the users, the output could be expanded if needed. Here we are checking by the attribute (employeeID, but it could be changed of course)
+
+Related post: https://dykhl.in/post/5
 #>
 
 $results = @()
