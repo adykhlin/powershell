@@ -1,5 +1,5 @@
 <#
-Specify the OS for the devices you want to Sync (line 11):
+Specify the OS for the devices you want to Sync (line 13):
 Windows: $Devices = Get-IntuneManagedDevice -Filter "contains(operatingsystem, 'Windows')"
 iOS/ipadOS: $Devices = Get-IntuneManagedDevice -Filter "contains(operatingsystem, 'iOS')"
 Android: $Devices = Get-IntuneManagedDevice -Filter "contains(operatingsystem, 'Android')"

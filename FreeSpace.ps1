@@ -1,6 +1,6 @@
 <#
 With this script, we check the free disk (DeviceID) space on each machine matching the filter by OS having "Server" in name, and output the information in GB and with 3 characters in a decimal fraction (F3)
-Note: Get-WmiObject is deprecated in PowerShell Core. DriveType 5 is a CDROM. Lines 7 and 8 both work, choose whatever you like more
+Note: Get-WmiObject is deprecated in PowerShell Core. DriveType 5 is a CDROM.
 
 Related post: https://dykhl.in/post/10
 #>
