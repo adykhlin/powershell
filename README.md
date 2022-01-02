@@ -1,2 +1,2 @@
 # powershell
-Scripts used on https://dykhl.in and more
+Scripts used on https://dykhl.in and more.
